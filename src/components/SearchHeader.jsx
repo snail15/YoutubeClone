@@ -10,6 +10,7 @@ export default function SearchHeader() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    console.log(text);
     navigate(`/videos/${text}`);
   };
 
